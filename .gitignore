@@ -1,5 +1,4 @@
 node_modules/
-graph-out/cache/
 *.log
 .DS_Store
 test-import.mjs

@@ -1,0 +1,3250 @@
+{
+  "index.ts": {
+    "hash": "8e27c77fbec0f0d9",
+    "nodes": [
+      {
+        "id": "index_file",
+        "label": "index.ts",
+        "type": "file",
+        "sourceFile": "index.ts"
+      }
+    ],
+    "edges": [
+      {
+        "source": "index_file",
+        "target": "src_config_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "index_file",
+        "target": "src_tools_abap-setup_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "index_file",
+        "target": "src_tools_abap-status_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "index_file",
+        "target": "src_tools_abap-profile_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "index_file",
+        "target": "src_tools_abap-test-connection_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "index_file",
+        "target": "src_tools_abap-search_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "index_file",
+        "target": "src_tools_abap-object-structure_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "index_file",
+        "target": "src_tools_abap-read_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "index_file",
+        "target": "src_tools_abap-lock_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "index_file",
+        "target": "src_tools_abap-unlock_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "index_file",
+        "target": "src_tools_abap-write_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "index_file",
+        "target": "src_tools_abap-activate_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "index_file",
+        "target": "src_tools_abap-syntax-check_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "index_file",
+        "target": "src_tools_abap-unit-test_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "index_file",
+        "target": "src_tools_abap-query_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "index_file",
+        "target": "src_tools_abap-table_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "index_file",
+        "target": "src_tools_abap-where-used_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "index_file",
+        "target": "src_tools_abap-object-types_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "index_file",
+        "target": "src_tools_abap-node-contents_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "index_file",
+        "target": "src_tools_abap-transports_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "index_file",
+        "target": "src_tools_abap-atc_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "index_file",
+        "target": "src_tools_abap-dumps_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "index_file",
+        "target": "src_tools_abap-traces_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "index_file",
+        "target": "src_tools_abap-trace-hitlist_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "index_file",
+        "target": "src_tools_abap-transport-details_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "index_file",
+        "target": "src_tools_abap-text-elements_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "index_file",
+        "target": "src_tools_abap-set-text-elements_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "index_file",
+        "target": "src_tools_abap-create-object_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "package-lock.json": {
+    "hash": "62a170e512d5a072",
+    "nodes": [],
+    "edges": []
+  },
+  "package.json": {
+    "hash": "e6c87a3bbb26afd6",
+    "nodes": [
+      {
+        "id": "package_file",
+        "label": "package.json",
+        "type": "file",
+        "sourceFile": "package.json"
+      },
+      {
+        "id": "package_name",
+        "label": "name",
+        "type": "field",
+        "sourceFile": "package.json"
+      },
+      {
+        "id": "package_version",
+        "label": "version",
+        "type": "field",
+        "sourceFile": "package.json"
+      },
+      {
+        "id": "package_description",
+        "label": "description",
+        "type": "field",
+        "sourceFile": "package.json"
+      },
+      {
+        "id": "package_keywords",
+        "label": "keywords",
+        "type": "field",
+        "sourceFile": "package.json"
+      },
+      {
+        "id": "package_author",
+        "label": "author",
+        "type": "field",
+        "sourceFile": "package.json"
+      },
+      {
+        "id": "package_license",
+        "label": "license",
+        "type": "field",
+        "sourceFile": "package.json"
+      },
+      {
+        "id": "package_type",
+        "label": "type",
+        "type": "field",
+        "sourceFile": "package.json"
+      },
+      {
+        "id": "package_engines",
+        "label": "engines",
+        "type": "field",
+        "sourceFile": "package.json"
+      },
+      {
+        "id": "package_repository",
+        "label": "repository",
+        "type": "field",
+        "sourceFile": "package.json"
+      },
+      {
+        "id": "package_bugs",
+        "label": "bugs",
+        "type": "field",
+        "sourceFile": "package.json"
+      },
+      {
+        "id": "package_publishConfig",
+        "label": "publishConfig",
+        "type": "field",
+        "sourceFile": "package.json"
+      },
+      {
+        "id": "package_scripts",
+        "label": "scripts",
+        "type": "field",
+        "sourceFile": "package.json"
+      },
+      {
+        "id": "package_pi",
+        "label": "pi",
+        "type": "field",
+        "sourceFile": "package.json"
+      },
+      {
+        "id": "package_dependencies",
+        "label": "dependencies",
+        "type": "field",
+        "sourceFile": "package.json"
+      },
+      {
+        "id": "package_devDependencies",
+        "label": "devDependencies",
+        "type": "field",
+        "sourceFile": "package.json"
+      }
+    ],
+    "edges": [
+      {
+        "source": "package_file",
+        "target": "package_name",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "package_file",
+        "target": "package_version",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "package_file",
+        "target": "package_description",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "package_file",
+        "target": "package_keywords",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "package_file",
+        "target": "package_author",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "package_file",
+        "target": "package_license",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "package_file",
+        "target": "package_type",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "package_file",
+        "target": "package_engines",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "package_file",
+        "target": "package_repository",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "package_file",
+        "target": "package_bugs",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "package_file",
+        "target": "package_publishConfig",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "package_file",
+        "target": "package_scripts",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "package_file",
+        "target": "package_pi",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "package_file",
+        "target": "package_dependencies",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "package_file",
+        "target": "package_devDependencies",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "release.config.cjs": {
+    "hash": "b70b717326632d30",
+    "nodes": [
+      {
+        "id": "release.config_file",
+        "label": "release.config.cjs",
+        "type": "file",
+        "sourceFile": "release.config.cjs"
+      }
+    ],
+    "edges": []
+  },
+  "src/client.ts": {
+    "hash": "5f05ef5518644901",
+    "nodes": [
+      {
+        "id": "src_client_file",
+        "label": "src/client.ts",
+        "type": "file",
+        "sourceFile": "src/client.ts"
+      },
+      {
+        "id": "src_client_createClient",
+        "label": "createClient",
+        "type": "function",
+        "sourceFile": "src/client.ts",
+        "sourceLocation": "L22"
+      },
+      {
+        "id": "src_client_rootMessage",
+        "label": "rootMessage",
+        "type": "function",
+        "sourceFile": "src/client.ts",
+        "sourceLocation": "L43"
+      },
+      {
+        "id": "src_client_toError",
+        "label": "toError",
+        "type": "function",
+        "sourceFile": "src/client.ts",
+        "sourceLocation": "L50"
+      },
+      {
+        "id": "src_client_RunOptions",
+        "label": "RunOptions",
+        "type": "interface",
+        "sourceFile": "src/client.ts",
+        "sourceLocation": "L61"
+      },
+      {
+        "id": "src_client_withClient",
+        "label": "withClient",
+        "type": "function",
+        "sourceFile": "src/client.ts",
+        "sourceLocation": "L69"
+      },
+      {
+        "id": "src_client_ResolvedObject",
+        "label": "ResolvedObject",
+        "type": "interface",
+        "sourceFile": "src/client.ts",
+        "sourceLocation": "L91"
+      },
+      {
+        "id": "src_client_resolveObject",
+        "label": "resolveObject",
+        "type": "function",
+        "sourceFile": "src/client.ts",
+        "sourceLocation": "L110"
+      },
+      {
+        "id": "src_client_pickSearchResult",
+        "label": "pickSearchResult",
+        "type": "function",
+        "sourceFile": "src/client.ts",
+        "sourceLocation": "L164"
+      },
+      {
+        "id": "src_client_listObjectTypes",
+        "label": "listObjectTypes",
+        "type": "function",
+        "sourceFile": "src/client.ts",
+        "sourceLocation": "L173"
+      }
+    ],
+    "edges": [
+      {
+        "source": "src_client_file",
+        "target": "src_types_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_client_file",
+        "target": "src_types_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_client_file",
+        "target": "src_client_createClient",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_client_createClient",
+        "target": "src_client_createSSLConfig",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_client_file",
+        "target": "src_client_rootMessage",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_client_rootMessage",
+        "target": "src_client_String",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_client_file",
+        "target": "src_client_toError",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_client_toError",
+        "target": "src_client_rootMessage",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_client_toError",
+        "target": "src_client_String",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_client_file",
+        "target": "src_client_RunOptions",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_client_file",
+        "target": "src_client_withClient",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_client_withClient",
+        "target": "src_client_createClient",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_client_withClient",
+        "target": "src_client_client_login",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_client_withClient",
+        "target": "src_client_fn",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_client_withClient",
+        "target": "src_client_toError",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_client_withClient",
+        "target": "src_client_client_dropSession",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_client_file",
+        "target": "src_client_ResolvedObject",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_client_file",
+        "target": "src_client_resolveObject",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_client_resolveObject",
+        "target": "src_client_client_objectStructure",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_client_resolveObject",
+        "target": "src_client_ADTClient_mainInclude",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_client_resolveObject",
+        "target": "src_client_client_searchObject",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_client_resolveObject",
+        "target": "src_client_pickSearchResult",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_client_resolveObject",
+        "target": "src_client_client_objectStructure",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_client_resolveObject",
+        "target": "src_client_ADTClient_mainInclude",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_client_file",
+        "target": "src_client_pickSearchResult",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_client_pickSearchResult",
+        "target": "src_client_query_toLowerCase",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_client_pickSearchResult",
+        "target": "src_client_results_find",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_client_pickSearchResult",
+        "target": "src_client_r__adtcore_name___toLowerCase",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_client_file",
+        "target": "src_client_listObjectTypes",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_client_listObjectTypes",
+        "target": "src_client_client_objectTypes",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      }
+    ]
+  },
+  "src/config.ts": {
+    "hash": "7f94af1f1fa00f2d",
+    "nodes": [
+      {
+        "id": "src_config_file",
+        "label": "src/config.ts",
+        "type": "file",
+        "sourceFile": "src/config.ts"
+      },
+      {
+        "id": "src_config_configPath",
+        "label": "configPath",
+        "type": "function",
+        "sourceFile": "src/config.ts",
+        "sourceLocation": "L23"
+      },
+      {
+        "id": "src_config_persistProfiles",
+        "label": "persistProfiles",
+        "type": "function",
+        "sourceFile": "src/config.ts",
+        "sourceLocation": "L39",
+        "description": "* Write the profile store. * The file holds plaintext passwords, so it must never be group- or world-readable. writeFileSync's `mode` only applies when the file is created, so an existing file keeps i"
+      },
+      {
+        "id": "src_config_loadConfig",
+        "label": "loadConfig",
+        "type": "function",
+        "sourceFile": "src/config.ts",
+        "sourceLocation": "L66"
+      },
+      {
+        "id": "src_config_getConfig",
+        "label": "getConfig",
+        "type": "function",
+        "sourceFile": "src/config.ts",
+        "sourceLocation": "L99"
+      },
+      {
+        "id": "src_config_getConfigOrThrow",
+        "label": "getConfigOrThrow",
+        "type": "function",
+        "sourceFile": "src/config.ts",
+        "sourceLocation": "L104"
+      },
+      {
+        "id": "src_config_getProfile",
+        "label": "getProfile",
+        "type": "function",
+        "sourceFile": "src/config.ts",
+        "sourceLocation": "L113"
+      },
+      {
+        "id": "src_config_resolveConfig",
+        "label": "resolveConfig",
+        "type": "function",
+        "sourceFile": "src/config.ts",
+        "sourceLocation": "L121"
+      },
+      {
+        "id": "src_config_getProfiles",
+        "label": "getProfiles",
+        "type": "function",
+        "sourceFile": "src/config.ts",
+        "sourceLocation": "L132"
+      },
+      {
+        "id": "src_config_getActiveProfile",
+        "label": "getActiveProfile",
+        "type": "function",
+        "sourceFile": "src/config.ts",
+        "sourceLocation": "L136"
+      },
+      {
+        "id": "src_config_saveProfile",
+        "label": "saveProfile",
+        "type": "function",
+        "sourceFile": "src/config.ts",
+        "sourceLocation": "L142"
+      },
+      {
+        "id": "src_config_setActiveProfile",
+        "label": "setActiveProfile",
+        "type": "function",
+        "sourceFile": "src/config.ts",
+        "sourceLocation": "L151"
+      },
+      {
+        "id": "src_config_deleteProfile",
+        "label": "deleteProfile",
+        "type": "function",
+        "sourceFile": "src/config.ts",
+        "sourceLocation": "L159"
+      },
+      {
+        "id": "src_config__resetForTesting",
+        "label": "_resetForTesting",
+        "type": "function",
+        "sourceFile": "src/config.ts",
+        "sourceLocation": "L171"
+      }
+    ],
+    "edges": [
+      {
+        "source": "src_config_file",
+        "target": "src_types_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_config_file",
+        "target": "src_types_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_config_file",
+        "target": "src_config_configPath",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_config_configPath",
+        "target": "src_config_path_join",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_config_file",
+        "target": "src_config_persistProfiles",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_config_persistProfiles",
+        "target": "src_config_configPath",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_config_persistProfiles",
+        "target": "src_config_path_dirname",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_config_persistProfiles",
+        "target": "src_config_fs_existsSync",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_config_persistProfiles",
+        "target": "src_config_fs_mkdirSync",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_config_persistProfiles",
+        "target": "src_config_fs_writeFileSync",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_config_persistProfiles",
+        "target": "src_config_JSON_stringify",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_config_persistProfiles",
+        "target": "src_config_fs_chmodSync",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_config_persistProfiles",
+        "target": "src_config_fs_renameSync",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_config_persistProfiles",
+        "target": "src_config_fs_unlinkSync",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_config_file",
+        "target": "src_config_loadConfig",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_config_loadConfig",
+        "target": "src_config_configPath",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_config_loadConfig",
+        "target": "src_config_fs_existsSync",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_config_loadConfig",
+        "target": "src_config_JSON_parse",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_config_loadConfig",
+        "target": "src_config_fs_readFileSync",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_config_loadConfig",
+        "target": "src_config_fs_statSync",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_config_loadConfig",
+        "target": "src_config_fs_chmodSync",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_config_loadConfig",
+        "target": "src_config_Object_keys",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_config_loadConfig",
+        "target": "src_config_Object_keys",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_config_file",
+        "target": "src_config_getConfig",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_config_file",
+        "target": "src_config_getConfigOrThrow",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_config_getConfigOrThrow",
+        "target": "src_config_getConfig",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_config_file",
+        "target": "src_config_getProfile",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_config_file",
+        "target": "src_config_resolveConfig",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_config_resolveConfig",
+        "target": "src_config_getProfile",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_config_resolveConfig",
+        "target": "src_config_Object_keys",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_config_resolveConfig",
+        "target": "src_config_getConfigOrThrow",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_config_file",
+        "target": "src_config_getProfiles",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_config_file",
+        "target": "src_config_getActiveProfile",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_config_file",
+        "target": "src_config_saveProfile",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_config_saveProfile",
+        "target": "src_config_Object_keys",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_config_saveProfile",
+        "target": "src_config_persistProfiles",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_config_file",
+        "target": "src_config_setActiveProfile",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_config_setActiveProfile",
+        "target": "src_config_Object_keys",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_config_setActiveProfile",
+        "target": "src_config_persistProfiles",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_config_file",
+        "target": "src_config_deleteProfile",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_config_deleteProfile",
+        "target": "src_config_Object_keys",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_config_deleteProfile",
+        "target": "src_config_persistProfiles",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_config_file",
+        "target": "src_config__resetForTesting",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "src/formatting/formatters.ts": {
+    "hash": "c7dd479215bcc38d",
+    "nodes": [
+      {
+        "id": "src_formatting_formatters_file",
+        "label": "src/formatting/formatters.ts",
+        "type": "file",
+        "sourceFile": "src/formatting/formatters.ts"
+      },
+      {
+        "id": "src_formatting_formatters_isClassStructure",
+        "label": "isClassStructure",
+        "type": "function",
+        "sourceFile": "src/formatting/formatters.ts",
+        "sourceLocation": "L28"
+      },
+      {
+        "id": "src_formatting_formatters_formatSearchResults",
+        "label": "formatSearchResults",
+        "type": "function",
+        "sourceFile": "src/formatting/formatters.ts",
+        "sourceLocation": "L36"
+      },
+      {
+        "id": "src_formatting_formatters_formatObjectStructure",
+        "label": "formatObjectStructure",
+        "type": "function",
+        "sourceFile": "src/formatting/formatters.ts",
+        "sourceLocation": "L57"
+      },
+      {
+        "id": "src_formatting_formatters_formatActivation",
+        "label": "formatActivation",
+        "type": "function",
+        "sourceFile": "src/formatting/formatters.ts",
+        "sourceLocation": "L77"
+      },
+      {
+        "id": "src_formatting_formatters_formatUnitTests",
+        "label": "formatUnitTests",
+        "type": "function",
+        "sourceFile": "src/formatting/formatters.ts",
+        "sourceLocation": "L101"
+      },
+      {
+        "id": "src_formatting_formatters_formatQueryResult",
+        "label": "formatQueryResult",
+        "type": "function",
+        "sourceFile": "src/formatting/formatters.ts",
+        "sourceLocation": "L130"
+      },
+      {
+        "id": "src_formatting_formatters_formatNodes",
+        "label": "formatNodes",
+        "type": "function",
+        "sourceFile": "src/formatting/formatters.ts",
+        "sourceLocation": "L159"
+      },
+      {
+        "id": "src_formatting_formatters_formatObjectTypes",
+        "label": "formatObjectTypes",
+        "type": "function",
+        "sourceFile": "src/formatting/formatters.ts",
+        "sourceLocation": "L172"
+      },
+      {
+        "id": "src_formatting_formatters_targetRequests",
+        "label": "targetRequests",
+        "type": "function",
+        "sourceFile": "src/formatting/formatters.ts",
+        "sourceLocation": "L182"
+      },
+      {
+        "id": "src_formatting_formatters_formatTransports",
+        "label": "formatTransports",
+        "type": "function",
+        "sourceFile": "src/formatting/formatters.ts",
+        "sourceLocation": "L188"
+      },
+      {
+        "id": "src_formatting_formatters_formatUsageReferences",
+        "label": "formatUsageReferences",
+        "type": "function",
+        "sourceFile": "src/formatting/formatters.ts",
+        "sourceLocation": "L206"
+      },
+      {
+        "id": "src_formatting_formatters_formatLock",
+        "label": "formatLock",
+        "type": "function",
+        "sourceFile": "src/formatting/formatters.ts",
+        "sourceLocation": "L217"
+      },
+      {
+        "id": "src_formatting_formatters_formatProfileStatus",
+        "label": "formatProfileStatus",
+        "type": "function",
+        "sourceFile": "src/formatting/formatters.ts",
+        "sourceLocation": "L229"
+      },
+      {
+        "id": "src_formatting_formatters_formatSyntaxCheck",
+        "label": "formatSyntaxCheck",
+        "type": "function",
+        "sourceFile": "src/formatting/formatters.ts",
+        "sourceLocation": "L255"
+      },
+      {
+        "id": "src_formatting_formatters_formatAtcResult",
+        "label": "formatAtcResult",
+        "type": "function",
+        "sourceFile": "src/formatting/formatters.ts",
+        "sourceLocation": "L265"
+      },
+      {
+        "id": "src_formatting_formatters_formatDumps",
+        "label": "formatDumps",
+        "type": "function",
+        "sourceFile": "src/formatting/formatters.ts",
+        "sourceLocation": "L285"
+      },
+      {
+        "id": "src_formatting_formatters_formatTraces",
+        "label": "formatTraces",
+        "type": "function",
+        "sourceFile": "src/formatting/formatters.ts",
+        "sourceLocation": "L296"
+      },
+      {
+        "id": "src_formatting_formatters_formatTraceHitList",
+        "label": "formatTraceHitList",
+        "type": "function",
+        "sourceFile": "src/formatting/formatters.ts",
+        "sourceLocation": "L311"
+      },
+      {
+        "id": "src_formatting_formatters_formatTransportDetails",
+        "label": "formatTransportDetails",
+        "type": "function",
+        "sourceFile": "src/formatting/formatters.ts",
+        "sourceLocation": "L342"
+      },
+      {
+        "id": "src_formatting_formatters_formatTextElements",
+        "label": "formatTextElements",
+        "type": "function",
+        "sourceFile": "src/formatting/formatters.ts",
+        "sourceLocation": "L370"
+      }
+    ],
+    "edges": [
+      {
+        "source": "src_formatting_formatters_file",
+        "target": "src_formatting_formatters_isClassStructure",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_formatting_formatters_isClassStructure",
+        "target": "src_formatting_formatters_Array_isArray",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_file",
+        "target": "src_formatting_formatters_formatSearchResults",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_formatting_formatters_formatSearchResults",
+        "target": "src_formatting_formatters_results_map",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatSearchResults",
+        "target": "src_formatting_formatters_parts_push",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatSearchResults",
+        "target": "src_formatting_formatters_parts_push",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatSearchResults",
+        "target": "src_formatting_formatters_parts_join",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatSearchResults",
+        "target": "src_formatting_formatters_lines_join",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_file",
+        "target": "src_formatting_formatters_formatObjectStructure",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_formatting_formatters_formatObjectStructure",
+        "target": "src_formatting_formatters_lines_push",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatObjectStructure",
+        "target": "src_formatting_formatters_lines_push",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatObjectStructure",
+        "target": "src_formatting_formatters_lines_push",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatObjectStructure",
+        "target": "src_formatting_formatters_isClassStructure",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatObjectStructure",
+        "target": "src_formatting_formatters_lines_push",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatObjectStructure",
+        "target": "src_formatting_formatters_lines_push",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatObjectStructure",
+        "target": "src_formatting_formatters_lines_join",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_file",
+        "target": "src_formatting_formatters_formatActivation",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_formatting_formatters_formatActivation",
+        "target": "src_formatting_formatters_lines_push",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatActivation",
+        "target": "src_formatting_formatters_lines_push",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatActivation",
+        "target": "src_formatting_formatters_lines_push",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatActivation",
+        "target": "src_formatting_formatters_lines_push",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatActivation",
+        "target": "src_formatting_formatters_lines_join",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_file",
+        "target": "src_formatting_formatters_formatUnitTests",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_formatting_formatters_formatUnitTests",
+        "target": "src_formatting_formatters_lines_push",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatUnitTests",
+        "target": "src_formatting_formatters_m_alerts_find",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatUnitTests",
+        "target": "src_formatting_formatters_lines_push",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatUnitTests",
+        "target": "src_formatting_formatters_lines_push",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatUnitTests",
+        "target": "src_formatting_formatters_alert_details_slice",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatUnitTests",
+        "target": "src_formatting_formatters_lines_push",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatUnitTests",
+        "target": "src_formatting_formatters_d_split___n___join",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatUnitTests",
+        "target": "src_formatting_formatters_d_split",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatUnitTests",
+        "target": "src_formatting_formatters_lines_unshift",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatUnitTests",
+        "target": "src_formatting_formatters_lines_join",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_file",
+        "target": "src_formatting_formatters_formatQueryResult",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_formatting_formatters_formatQueryResult",
+        "target": "src_formatting_formatters_columns_map",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatQueryResult",
+        "target": "src_formatting_formatters_values_map",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatQueryResult",
+        "target": "src_formatting_formatters_names_map",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatQueryResult",
+        "target": "src_formatting_formatters_String",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatQueryResult",
+        "target": "src_formatting_formatters_names_map",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatQueryResult",
+        "target": "src_formatting_formatters_Math_max",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatQueryResult",
+        "target": "src_formatting_formatters_rows_map",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatQueryResult",
+        "target": "src_formatting_formatters_cells_map__c__i_____c_padEnd_widths_i____join",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatQueryResult",
+        "target": "src_formatting_formatters_cells_map",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatQueryResult",
+        "target": "src_formatting_formatters_c_padEnd",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatQueryResult",
+        "target": "src_formatting_formatters_fmt",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatQueryResult",
+        "target": "src_formatting_formatters_widths_map__w_________repeat_w___join",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatQueryResult",
+        "target": "src_formatting_formatters_widths_map",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatQueryResult",
+        "target": "src_formatting_formatters_____repeat",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatQueryResult",
+        "target": "src_formatting_formatters_rows_map",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatQueryResult",
+        "target": "src_formatting_formatters_lines_push",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatQueryResult",
+        "target": "src_formatting_formatters_lines_join",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_file",
+        "target": "src_formatting_formatters_formatNodes",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_formatting_formatters_formatNodes",
+        "target": "src_formatting_formatters_structure_nodes_map",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatNodes",
+        "target": "src_formatting_formatters_lines_join",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_file",
+        "target": "src_formatting_formatters_formatObjectTypes",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_formatting_formatters_formatObjectTypes",
+        "target": "src_formatting_formatters_types_map",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatObjectTypes",
+        "target": "src_formatting_formatters_lines_join",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_file",
+        "target": "src_formatting_formatters_targetRequests",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_formatting_formatters_targetRequests",
+        "target": "src_formatting_formatters_____t_modifiable_____t_released__map",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_file",
+        "target": "src_formatting_formatters_formatTransports",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_formatting_formatters_formatTransports",
+        "target": "src_formatting_formatters_transports_workbench_map",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatTransports",
+        "target": "src_formatting_formatters_transports_customizing_map",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatTransports",
+        "target": "src_formatting_formatters_targetRequests",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatTransports",
+        "target": "src_formatting_formatters_lines_push",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatTransports",
+        "target": "src_formatting_formatters_lines_push",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatTransports",
+        "target": "src_formatting_formatters_lines_join",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_file",
+        "target": "src_formatting_formatters_formatUsageReferences",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_formatting_formatters_formatUsageReferences",
+        "target": "src_formatting_formatters_references_map",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatUsageReferences",
+        "target": "src_formatting_formatters_lines_join",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_file",
+        "target": "src_formatting_formatters_formatLock",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_formatting_formatters_formatLock",
+        "target": "src_formatting_formatters________Locked__lockHandle_$_lock_LOCK_HANDLE________lock_CORRNR____Transport__$_lock_CORRNR___$_lock_CORRTEXT_____________Transport___none________lock_CORRUSER____Correction_user__$_lock_CORRUSER__________________filter_Boolean_______join",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatLock",
+        "target": "src_formatting_formatters________Locked__lockHandle_$_lock_LOCK_HANDLE________lock_CORRNR____Transport__$_lock_CORRNR___$_lock_CORRTEXT_____________Transport___none________lock_CORRUSER____Correction_user__$_lock_CORRUSER__________________filter",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_file",
+        "target": "src_formatting_formatters_formatProfileStatus",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_formatting_formatters_formatProfileStatus",
+        "target": "src_formatting_formatters_import",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatProfileStatus",
+        "target": "src_formatting_formatters_Object_keys",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatProfileStatus",
+        "target": "src_formatting_formatters_lines_push",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatProfileStatus",
+        "target": "src_formatting_formatters_________cfg_client____client_$_cfg_client_______________cfg_language____lang_$_cfg_language_______________cfg_allowUnauthorized____insecure_tls______________filter",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatProfileStatus",
+        "target": "src_formatting_formatters_lines_push",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatProfileStatus",
+        "target": "src_formatting_formatters_extra_join",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatProfileStatus",
+        "target": "src_formatting_formatters_lines_join",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_file",
+        "target": "src_formatting_formatters_formatSyntaxCheck",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_formatting_formatters_formatSyntaxCheck",
+        "target": "src_formatting_formatters_results_map",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatSyntaxCheck",
+        "target": "src_formatting_formatters_lines_join",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_file",
+        "target": "src_formatting_formatters_formatAtcResult",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_formatting_formatters_formatAtcResult",
+        "target": "src_formatting_formatters_result_objects_flatMap",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatAtcResult",
+        "target": "src_formatting_formatters_o_findings_map",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatAtcResult",
+        "target": "src_formatting_formatters_lines_push",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatAtcResult",
+        "target": "src_formatting_formatters_lines_unshift",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatAtcResult",
+        "target": "src_formatting_formatters_lines_join",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_file",
+        "target": "src_formatting_formatters_formatDumps",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_formatting_formatters_formatDumps",
+        "target": "src_formatting_formatters_feed_dumps_map",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatDumps",
+        "target": "src_formatting_formatters_lines_join",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_file",
+        "target": "src_formatting_formatters_formatTraces",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_formatting_formatters_formatTraces",
+        "target": "src_formatting_formatters_result_runs_map",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatTraces",
+        "target": "src_formatting_formatters_Math_round",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatTraces",
+        "target": "src_formatting_formatters_lines_join",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_file",
+        "target": "src_formatting_formatters_formatTraceHitList",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_formatting_formatters_formatTraceHitList",
+        "target": "src_formatting_formatters_lines_push",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatTraceHitList",
+        "target": "src_formatting_formatters_statements_statements_slice",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatTraceHitList",
+        "target": "src_formatting_formatters_lines_push",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatTraceHitList",
+        "target": "src_formatting_formatters_lines_push",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatTraceHitList",
+        "target": "src_formatting_formatters_lines_push",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatTraceHitList",
+        "target": "src_formatting_formatters_____hitList_entries__sort",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatTraceHitList",
+        "target": "src_formatting_formatters_sorted_slice",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatTraceHitList",
+        "target": "src_formatting_formatters_lines_push",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatTraceHitList",
+        "target": "src_formatting_formatters_lines_join",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_file",
+        "target": "src_formatting_formatters_formatTransportDetails",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_formatting_formatters_formatTransportDetails",
+        "target": "src_formatting_formatters__request_objects________map",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatTransportDetails",
+        "target": "src_formatting_formatters_lines_push",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatTransportDetails",
+        "target": "src_formatting_formatters_lines_push",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatTransportDetails",
+        "target": "src_formatting_formatters_lines_push",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatTransportDetails",
+        "target": "src_formatting_formatters_lines_push",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatTransportDetails",
+        "target": "src_formatting_formatters_lines_push",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatTransportDetails",
+        "target": "src_formatting_formatters_lines_join",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_file",
+        "target": "src_formatting_formatters_formatTextElements",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_formatting_formatters_formatTextElements",
+        "target": "src_formatting_formatters_result_textElements_map",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_formatting_formatters_formatTextElements",
+        "target": "src_formatting_formatters_lines_join",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      }
+    ]
+  },
+  "src/tools/abap-activate.ts": {
+    "hash": "aea664b187c8790a",
+    "nodes": [
+      {
+        "id": "src_tools_abap-activate_file",
+        "label": "src/tools/abap-activate.ts",
+        "type": "file",
+        "sourceFile": "src/tools/abap-activate.ts"
+      }
+    ],
+    "edges": [
+      {
+        "source": "src_tools_abap-activate_file",
+        "target": "src_tools_.._client_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-activate_file",
+        "target": "src_tools_.._config_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-activate_file",
+        "target": "src_tools_.._formatting_formatters_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "src/tools/abap-atc.ts": {
+    "hash": "784e5ef72bd82e84",
+    "nodes": [
+      {
+        "id": "src_tools_abap-atc_file",
+        "label": "src/tools/abap-atc.ts",
+        "type": "file",
+        "sourceFile": "src/tools/abap-atc.ts"
+      }
+    ],
+    "edges": [
+      {
+        "source": "src_tools_abap-atc_file",
+        "target": "src_tools_.._client_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-atc_file",
+        "target": "src_tools_.._config_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-atc_file",
+        "target": "src_tools_.._formatting_formatters_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "src/tools/abap-create-object.ts": {
+    "hash": "de0e5a4591280087",
+    "nodes": [
+      {
+        "id": "src_tools_abap-create-object_file",
+        "label": "src/tools/abap-create-object.ts",
+        "type": "file",
+        "sourceFile": "src/tools/abap-create-object.ts"
+      },
+      {
+        "id": "src_tools_abap-create-object_parentPathFor",
+        "label": "parentPathFor",
+        "type": "function",
+        "sourceFile": "src/tools/abap-create-object.ts",
+        "sourceLocation": "L33",
+        "description": "Resolve the container URI used for function-group includes/modules."
+      }
+    ],
+    "edges": [
+      {
+        "source": "src_tools_abap-create-object_file",
+        "target": "src_tools_.._client_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-create-object_file",
+        "target": "src_tools_.._config_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-create-object_file",
+        "target": "src_tools_abap-create-object_parentPathFor",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-create-object_parentPathFor",
+        "target": "src_tools_abap-create-object_encodeURIComponent",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      },
+      {
+        "source": "src_tools_abap-create-object_parentPathFor",
+        "target": "src_tools_abap-create-object_parentName_toLowerCase",
+        "relation": "calls",
+        "confidence": "INFERRED",
+        "confidenceScore": 0.85
+      }
+    ]
+  },
+  "src/tools/abap-dumps.ts": {
+    "hash": "13b52d83181d2344",
+    "nodes": [
+      {
+        "id": "src_tools_abap-dumps_file",
+        "label": "src/tools/abap-dumps.ts",
+        "type": "file",
+        "sourceFile": "src/tools/abap-dumps.ts"
+      }
+    ],
+    "edges": [
+      {
+        "source": "src_tools_abap-dumps_file",
+        "target": "src_tools_.._client_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-dumps_file",
+        "target": "src_tools_.._config_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-dumps_file",
+        "target": "src_tools_.._formatting_formatters_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "src/tools/abap-lock.ts": {
+    "hash": "ce01df953ac77ce9",
+    "nodes": [
+      {
+        "id": "src_tools_abap-lock_file",
+        "label": "src/tools/abap-lock.ts",
+        "type": "file",
+        "sourceFile": "src/tools/abap-lock.ts"
+      }
+    ],
+    "edges": [
+      {
+        "source": "src_tools_abap-lock_file",
+        "target": "src_tools_.._client_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-lock_file",
+        "target": "src_tools_.._config_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-lock_file",
+        "target": "src_tools_.._formatting_formatters_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "src/tools/abap-node-contents.ts": {
+    "hash": "9cbf655c81fa5ed9",
+    "nodes": [
+      {
+        "id": "src_tools_abap-node-contents_file",
+        "label": "src/tools/abap-node-contents.ts",
+        "type": "file",
+        "sourceFile": "src/tools/abap-node-contents.ts"
+      }
+    ],
+    "edges": [
+      {
+        "source": "src_tools_abap-node-contents_file",
+        "target": "src_tools_.._client_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-node-contents_file",
+        "target": "src_tools_.._config_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-node-contents_file",
+        "target": "src_tools_.._formatting_formatters_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "src/tools/abap-object-structure.ts": {
+    "hash": "c11f522d422d19be",
+    "nodes": [
+      {
+        "id": "src_tools_abap-object-structure_file",
+        "label": "src/tools/abap-object-structure.ts",
+        "type": "file",
+        "sourceFile": "src/tools/abap-object-structure.ts"
+      }
+    ],
+    "edges": [
+      {
+        "source": "src_tools_abap-object-structure_file",
+        "target": "src_tools_.._client_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-object-structure_file",
+        "target": "src_tools_.._config_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-object-structure_file",
+        "target": "src_tools_.._formatting_formatters_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "src/tools/abap-object-types.ts": {
+    "hash": "27ce0574f601d121",
+    "nodes": [
+      {
+        "id": "src_tools_abap-object-types_file",
+        "label": "src/tools/abap-object-types.ts",
+        "type": "file",
+        "sourceFile": "src/tools/abap-object-types.ts"
+      }
+    ],
+    "edges": [
+      {
+        "source": "src_tools_abap-object-types_file",
+        "target": "src_tools_.._client_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-object-types_file",
+        "target": "src_tools_.._config_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-object-types_file",
+        "target": "src_tools_.._formatting_formatters_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "src/tools/abap-profile.ts": {
+    "hash": "be8474f89455dea0",
+    "nodes": [
+      {
+        "id": "src_tools_abap-profile_file",
+        "label": "src/tools/abap-profile.ts",
+        "type": "file",
+        "sourceFile": "src/tools/abap-profile.ts"
+      }
+    ],
+    "edges": [
+      {
+        "source": "src_tools_abap-profile_file",
+        "target": "src_tools_.._config_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-profile_file",
+        "target": "src_tools_.._formatting_formatters_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "src/tools/abap-query.ts": {
+    "hash": "c618984afa3d5d8b",
+    "nodes": [
+      {
+        "id": "src_tools_abap-query_file",
+        "label": "src/tools/abap-query.ts",
+        "type": "file",
+        "sourceFile": "src/tools/abap-query.ts"
+      }
+    ],
+    "edges": [
+      {
+        "source": "src_tools_abap-query_file",
+        "target": "src_tools_.._client_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-query_file",
+        "target": "src_tools_.._config_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-query_file",
+        "target": "src_tools_.._formatting_formatters_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "src/tools/abap-read.ts": {
+    "hash": "1977d5b47b174556",
+    "nodes": [
+      {
+        "id": "src_tools_abap-read_file",
+        "label": "src/tools/abap-read.ts",
+        "type": "file",
+        "sourceFile": "src/tools/abap-read.ts"
+      }
+    ],
+    "edges": [
+      {
+        "source": "src_tools_abap-read_file",
+        "target": "src_tools_.._client_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-read_file",
+        "target": "src_tools_.._config_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "src/tools/abap-search.ts": {
+    "hash": "417a3536b45ae7f9",
+    "nodes": [
+      {
+        "id": "src_tools_abap-search_file",
+        "label": "src/tools/abap-search.ts",
+        "type": "file",
+        "sourceFile": "src/tools/abap-search.ts"
+      }
+    ],
+    "edges": [
+      {
+        "source": "src_tools_abap-search_file",
+        "target": "src_tools_.._client_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-search_file",
+        "target": "src_tools_.._config_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-search_file",
+        "target": "src_tools_.._formatting_formatters_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "src/tools/abap-set-text-elements.ts": {
+    "hash": "73e3b7d3c3707bcf",
+    "nodes": [
+      {
+        "id": "src_tools_abap-set-text-elements_file",
+        "label": "src/tools/abap-set-text-elements.ts",
+        "type": "file",
+        "sourceFile": "src/tools/abap-set-text-elements.ts"
+      }
+    ],
+    "edges": [
+      {
+        "source": "src_tools_abap-set-text-elements_file",
+        "target": "src_tools_.._client_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-set-text-elements_file",
+        "target": "src_tools_.._config_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "src/tools/abap-setup.ts": {
+    "hash": "1d5f710095595de6",
+    "nodes": [
+      {
+        "id": "src_tools_abap-setup_file",
+        "label": "src/tools/abap-setup.ts",
+        "type": "file",
+        "sourceFile": "src/tools/abap-setup.ts"
+      },
+      {
+        "id": "src_tools_abap-setup_SetupParams",
+        "label": "SetupParams",
+        "type": "interface",
+        "sourceFile": "src/tools/abap-setup.ts",
+        "sourceLocation": "L13"
+      }
+    ],
+    "edges": [
+      {
+        "source": "src_tools_abap-setup_file",
+        "target": "src_tools_.._config_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-setup_file",
+        "target": "src_tools_.._types_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-setup_file",
+        "target": "src_tools_abap-setup_SetupParams",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "src/tools/abap-status.ts": {
+    "hash": "0ba273cccde99d33",
+    "nodes": [
+      {
+        "id": "src_tools_abap-status_file",
+        "label": "src/tools/abap-status.ts",
+        "type": "file",
+        "sourceFile": "src/tools/abap-status.ts"
+      }
+    ],
+    "edges": [
+      {
+        "source": "src_tools_abap-status_file",
+        "target": "src_tools_.._config_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-status_file",
+        "target": "src_tools_.._formatting_formatters_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "src/tools/abap-syntax-check.ts": {
+    "hash": "3aaebfca07065879",
+    "nodes": [
+      {
+        "id": "src_tools_abap-syntax-check_file",
+        "label": "src/tools/abap-syntax-check.ts",
+        "type": "file",
+        "sourceFile": "src/tools/abap-syntax-check.ts"
+      }
+    ],
+    "edges": [
+      {
+        "source": "src_tools_abap-syntax-check_file",
+        "target": "src_tools_.._client_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-syntax-check_file",
+        "target": "src_tools_.._config_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-syntax-check_file",
+        "target": "src_tools_.._formatting_formatters_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "src/tools/abap-table.ts": {
+    "hash": "2c1fa990316dc0db",
+    "nodes": [
+      {
+        "id": "src_tools_abap-table_file",
+        "label": "src/tools/abap-table.ts",
+        "type": "file",
+        "sourceFile": "src/tools/abap-table.ts"
+      }
+    ],
+    "edges": [
+      {
+        "source": "src_tools_abap-table_file",
+        "target": "src_tools_.._client_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-table_file",
+        "target": "src_tools_.._config_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-table_file",
+        "target": "src_tools_.._formatting_formatters_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "src/tools/abap-test-connection.ts": {
+    "hash": "915ab4d087d282e8",
+    "nodes": [
+      {
+        "id": "src_tools_abap-test-connection_file",
+        "label": "src/tools/abap-test-connection.ts",
+        "type": "file",
+        "sourceFile": "src/tools/abap-test-connection.ts"
+      }
+    ],
+    "edges": [
+      {
+        "source": "src_tools_abap-test-connection_file",
+        "target": "src_tools_.._client_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-test-connection_file",
+        "target": "src_tools_.._config_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "src/tools/abap-text-elements.ts": {
+    "hash": "c2fc80c4678a165b",
+    "nodes": [
+      {
+        "id": "src_tools_abap-text-elements_file",
+        "label": "src/tools/abap-text-elements.ts",
+        "type": "file",
+        "sourceFile": "src/tools/abap-text-elements.ts"
+      }
+    ],
+    "edges": [
+      {
+        "source": "src_tools_abap-text-elements_file",
+        "target": "src_tools_.._client_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-text-elements_file",
+        "target": "src_tools_.._config_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-text-elements_file",
+        "target": "src_tools_.._formatting_formatters_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "src/tools/abap-trace-hitlist.ts": {
+    "hash": "f188dcc7114114e8",
+    "nodes": [
+      {
+        "id": "src_tools_abap-trace-hitlist_file",
+        "label": "src/tools/abap-trace-hitlist.ts",
+        "type": "file",
+        "sourceFile": "src/tools/abap-trace-hitlist.ts"
+      }
+    ],
+    "edges": [
+      {
+        "source": "src_tools_abap-trace-hitlist_file",
+        "target": "src_tools_.._client_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-trace-hitlist_file",
+        "target": "src_tools_.._config_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-trace-hitlist_file",
+        "target": "src_tools_.._formatting_formatters_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "src/tools/abap-traces.ts": {
+    "hash": "c5bbacb3d7b302f7",
+    "nodes": [
+      {
+        "id": "src_tools_abap-traces_file",
+        "label": "src/tools/abap-traces.ts",
+        "type": "file",
+        "sourceFile": "src/tools/abap-traces.ts"
+      }
+    ],
+    "edges": [
+      {
+        "source": "src_tools_abap-traces_file",
+        "target": "src_tools_.._client_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-traces_file",
+        "target": "src_tools_.._config_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-traces_file",
+        "target": "src_tools_.._formatting_formatters_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "src/tools/abap-transport-details.ts": {
+    "hash": "d3a9775aec706423",
+    "nodes": [
+      {
+        "id": "src_tools_abap-transport-details_file",
+        "label": "src/tools/abap-transport-details.ts",
+        "type": "file",
+        "sourceFile": "src/tools/abap-transport-details.ts"
+      }
+    ],
+    "edges": [
+      {
+        "source": "src_tools_abap-transport-details_file",
+        "target": "src_tools_.._client_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-transport-details_file",
+        "target": "src_tools_.._config_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-transport-details_file",
+        "target": "src_tools_.._formatting_formatters_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "src/tools/abap-transports.ts": {
+    "hash": "3b20465794de8ce5",
+    "nodes": [
+      {
+        "id": "src_tools_abap-transports_file",
+        "label": "src/tools/abap-transports.ts",
+        "type": "file",
+        "sourceFile": "src/tools/abap-transports.ts"
+      }
+    ],
+    "edges": [
+      {
+        "source": "src_tools_abap-transports_file",
+        "target": "src_tools_.._client_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-transports_file",
+        "target": "src_tools_.._config_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-transports_file",
+        "target": "src_tools_.._formatting_formatters_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "src/tools/abap-unit-test.ts": {
+    "hash": "7c87b0e6f010687d",
+    "nodes": [
+      {
+        "id": "src_tools_abap-unit-test_file",
+        "label": "src/tools/abap-unit-test.ts",
+        "type": "file",
+        "sourceFile": "src/tools/abap-unit-test.ts"
+      }
+    ],
+    "edges": [
+      {
+        "source": "src_tools_abap-unit-test_file",
+        "target": "src_tools_.._client_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-unit-test_file",
+        "target": "src_tools_.._config_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-unit-test_file",
+        "target": "src_tools_.._formatting_formatters_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "src/tools/abap-unlock.ts": {
+    "hash": "13b248ba5f6600cd",
+    "nodes": [
+      {
+        "id": "src_tools_abap-unlock_file",
+        "label": "src/tools/abap-unlock.ts",
+        "type": "file",
+        "sourceFile": "src/tools/abap-unlock.ts"
+      }
+    ],
+    "edges": [
+      {
+        "source": "src_tools_abap-unlock_file",
+        "target": "src_tools_.._client_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-unlock_file",
+        "target": "src_tools_.._config_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "src/tools/abap-where-used.ts": {
+    "hash": "02be2ba3575272cd",
+    "nodes": [
+      {
+        "id": "src_tools_abap-where-used_file",
+        "label": "src/tools/abap-where-used.ts",
+        "type": "file",
+        "sourceFile": "src/tools/abap-where-used.ts"
+      }
+    ],
+    "edges": [
+      {
+        "source": "src_tools_abap-where-used_file",
+        "target": "src_tools_.._client_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-where-used_file",
+        "target": "src_tools_.._config_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-where-used_file",
+        "target": "src_tools_.._formatting_formatters_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "src/tools/abap-write.ts": {
+    "hash": "fb260c6965b186ad",
+    "nodes": [
+      {
+        "id": "src_tools_abap-write_file",
+        "label": "src/tools/abap-write.ts",
+        "type": "file",
+        "sourceFile": "src/tools/abap-write.ts"
+      }
+    ],
+    "edges": [
+      {
+        "source": "src_tools_abap-write_file",
+        "target": "src_tools_.._client_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_tools_abap-write_file",
+        "target": "src_tools_.._config_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "src/types.ts": {
+    "hash": "a4e99f0084f4b60d",
+    "nodes": [
+      {
+        "id": "src_types_file",
+        "label": "src/types.ts",
+        "type": "file",
+        "sourceFile": "src/types.ts"
+      },
+      {
+        "id": "src_types_AbapProfile",
+        "label": "AbapProfile",
+        "type": "interface",
+        "sourceFile": "src/types.ts",
+        "sourceLocation": "L10"
+      },
+      {
+        "id": "src_types_AbapProfiles",
+        "label": "AbapProfiles",
+        "type": "interface",
+        "sourceFile": "src/types.ts",
+        "sourceLocation": "L25"
+      },
+      {
+        "id": "src_types_AbapNotConfiguredError",
+        "label": "AbapNotConfiguredError",
+        "type": "class",
+        "sourceFile": "src/types.ts",
+        "sourceLocation": "L32"
+      },
+      {
+        "id": "src_types_AbapNotConfiguredError_constructor",
+        "label": "AbapNotConfiguredError.constructor",
+        "type": "method",
+        "sourceFile": "src/types.ts",
+        "sourceLocation": "L33"
+      },
+      {
+        "id": "src_types_AbapObjectNotFoundError",
+        "label": "AbapObjectNotFoundError",
+        "type": "class",
+        "sourceFile": "src/types.ts",
+        "sourceLocation": "L41"
+      },
+      {
+        "id": "src_types_AbapObjectNotFoundError_constructor",
+        "label": "AbapObjectNotFoundError.constructor",
+        "type": "method",
+        "sourceFile": "src/types.ts",
+        "sourceLocation": "L42"
+      },
+      {
+        "id": "src_types_AbapProfileNotFoundError",
+        "label": "AbapProfileNotFoundError",
+        "type": "class",
+        "sourceFile": "src/types.ts",
+        "sourceLocation": "L48"
+      },
+      {
+        "id": "src_types_AbapProfileNotFoundError_constructor",
+        "label": "AbapProfileNotFoundError.constructor",
+        "type": "method",
+        "sourceFile": "src/types.ts",
+        "sourceLocation": "L49"
+      }
+    ],
+    "edges": [
+      {
+        "source": "src_types_file",
+        "target": "src_types_AbapProfile",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_types_file",
+        "target": "src_types_AbapProfiles",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_types_file",
+        "target": "src_types_AbapNotConfiguredError",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_types_AbapNotConfiguredError",
+        "target": "src_types_Error",
+        "relation": "inherits",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_types_file",
+        "target": "src_types_AbapNotConfiguredError_constructor",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_types_AbapNotConfiguredError",
+        "target": "src_types_AbapNotConfiguredError_constructor",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_types_file",
+        "target": "src_types_AbapObjectNotFoundError",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_types_AbapObjectNotFoundError",
+        "target": "src_types_Error",
+        "relation": "inherits",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_types_file",
+        "target": "src_types_AbapObjectNotFoundError_constructor",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_types_AbapObjectNotFoundError",
+        "target": "src_types_AbapObjectNotFoundError_constructor",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_types_file",
+        "target": "src_types_AbapProfileNotFoundError",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_types_AbapProfileNotFoundError",
+        "target": "src_types_Error",
+        "relation": "inherits",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_types_file",
+        "target": "src_types_AbapProfileNotFoundError_constructor",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "src_types_AbapProfileNotFoundError",
+        "target": "src_types_AbapProfileNotFoundError_constructor",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "tests/config.test.ts": {
+    "hash": "71c155162a95b5e9",
+    "nodes": [
+      {
+        "id": "tests_config.test_file",
+        "label": "tests/config.test.ts",
+        "type": "file",
+        "sourceFile": "tests/config.test.ts"
+      }
+    ],
+    "edges": [
+      {
+        "source": "tests_config.test_file",
+        "target": "tests_.._src_types_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "tests_config.test_file",
+        "target": "tests_.._src_config_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "tests/formatters.test.ts": {
+    "hash": "dd76332d13c10c45",
+    "nodes": [
+      {
+        "id": "tests_formatters.test_file",
+        "label": "tests/formatters.test.ts",
+        "type": "file",
+        "sourceFile": "tests/formatters.test.ts"
+      }
+    ],
+    "edges": [
+      {
+        "source": "tests_formatters.test_file",
+        "target": "tests_.._src_formatting_formatters_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "tests_formatters.test_file",
+        "target": "tests_.._src_types_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "tests/smoke.test.ts": {
+    "hash": "c09366c0a13d059f",
+    "nodes": [
+      {
+        "id": "tests_smoke.test_file",
+        "label": "tests/smoke.test.ts",
+        "type": "file",
+        "sourceFile": "tests/smoke.test.ts"
+      }
+    ],
+    "edges": [
+      {
+        "source": "tests_smoke.test_file",
+        "target": "tests_.._src_tools_abap-setup_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "tests_smoke.test_file",
+        "target": "tests_.._src_tools_abap-status_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "tests_smoke.test_file",
+        "target": "tests_.._src_tools_abap-profile_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "tests_smoke.test_file",
+        "target": "tests_.._src_tools_abap-test-connection_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "tests_smoke.test_file",
+        "target": "tests_.._src_tools_abap-search_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "tests_smoke.test_file",
+        "target": "tests_.._src_tools_abap-object-structure_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "tests_smoke.test_file",
+        "target": "tests_.._src_tools_abap-read_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "tests_smoke.test_file",
+        "target": "tests_.._src_tools_abap-lock_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "tests_smoke.test_file",
+        "target": "tests_.._src_tools_abap-unlock_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "tests_smoke.test_file",
+        "target": "tests_.._src_tools_abap-write_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "tests_smoke.test_file",
+        "target": "tests_.._src_tools_abap-activate_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "tests_smoke.test_file",
+        "target": "tests_.._src_tools_abap-syntax-check_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "tests_smoke.test_file",
+        "target": "tests_.._src_tools_abap-unit-test_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "tests_smoke.test_file",
+        "target": "tests_.._src_tools_abap-query_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "tests_smoke.test_file",
+        "target": "tests_.._src_tools_abap-table_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "tests_smoke.test_file",
+        "target": "tests_.._src_tools_abap-where-used_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "tests_smoke.test_file",
+        "target": "tests_.._src_tools_abap-object-types_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "tests_smoke.test_file",
+        "target": "tests_.._src_tools_abap-node-contents_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "tests_smoke.test_file",
+        "target": "tests_.._src_tools_abap-transports_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "tests_smoke.test_file",
+        "target": "tests_.._src_tools_abap-atc_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "tests_smoke.test_file",
+        "target": "tests_.._src_tools_abap-dumps_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "tests_smoke.test_file",
+        "target": "tests_.._src_tools_abap-traces_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "tests_smoke.test_file",
+        "target": "tests_.._src_tools_abap-trace-hitlist_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "tests_smoke.test_file",
+        "target": "tests_.._src_tools_abap-transport-details_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "tests_smoke.test_file",
+        "target": "tests_.._src_tools_abap-text-elements_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "tests_smoke.test_file",
+        "target": "tests_.._src_tools_abap-set-text-elements_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "tests_smoke.test_file",
+        "target": "tests_.._src_tools_abap-create-object_file",
+        "relation": "imports",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  },
+  "tsconfig.json": {
+    "hash": "c9655eab2dd59961",
+    "nodes": [
+      {
+        "id": "tsconfig_file",
+        "label": "tsconfig.json",
+        "type": "file",
+        "sourceFile": "tsconfig.json"
+      },
+      {
+        "id": "tsconfig_compilerOptions",
+        "label": "compilerOptions",
+        "type": "field",
+        "sourceFile": "tsconfig.json"
+      },
+      {
+        "id": "tsconfig_include",
+        "label": "include",
+        "type": "field",
+        "sourceFile": "tsconfig.json"
+      }
+    ],
+    "edges": [
+      {
+        "source": "tsconfig_file",
+        "target": "tsconfig_compilerOptions",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      },
+      {
+        "source": "tsconfig_file",
+        "target": "tsconfig_include",
+        "relation": "contains",
+        "confidence": "EXTRACTED"
+      }
+    ]
+  }
+}
