@@ -1,6 +1,6 @@
 {
   "name": "@patimweb/pi-abap-fs",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "ABAP remote filesystem extension for pi coding agent. Read, search, write and activate ABAP objects on SAP systems via the ADT protocol.",
   "keywords": [
     "pi-package",
