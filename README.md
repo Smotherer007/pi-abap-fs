@@ -1,15 +1,14 @@
 # pi ABAP FS
 
-An [ABAP remote filesystem](https://github.com/marcellourbani/vscode_abap_remote_fs)-style
-extension for the [pi coding agent](https://github.com/earendil-works/pi-coding-agent).
+ABAP remote filesystem access for the [pi coding agent](https://github.com/earendil-works/pi-coding-agent).
 
-It gives the pi agent **live access to an SAP system** via the ADT (ABAP Development
-Tools) protocol: search and read real objects, edit and activate source code, run ABAP
-unit tests, and query live tables — all through plain-language prompts.
+Gives the pi agent **live, read/write access to an SAP S/4HANA system** over the ADT
+(ABAP Development Tools) protocol — search and read real objects, edit and activate
+source code, run unit tests and ATC, analyze dumps and performance traces, and query
+live tables, all through plain-language prompts. No VS Code or IDE required.
 
-This is a port of the core `vscode_abap_remote_fs` capabilities to pi. It is built on
-[`abap-adt-api`](https://www.npmjs.com/package/abap-adt-api), the same ADT client
-library the VS Code extension uses.
+Built on [`abap-adt-api`](https://www.npmjs.com/package/abap-adt-api), a standalone
+Node.js client for the ADT REST interface.
 
 ## Requirements
 
@@ -87,6 +86,12 @@ pi -e ./index.ts
 - "Add method `calculate` to `ZCL_MY_CLASS` and activate it."
 - "Run the unit tests for `ZCL_MY_CLASS` and explain the failures."
 - "Show me the first 20 rows of table `SFLIGHT` where `CARRID = 'LH'`."
+- "Run ATC on `ZCL_MY_CLASS` and summarize the findings."
+- "Are there any recent runtime dumps in the system?"
+- "List my open transport requests, then show the objects in `DEVK900123`."
+- "Analyze the latest performance trace and find the hot spots."
+- "Create a new class `ZCL_ORDER_HELPER` in package `Z_MY_PACKAGE`."
+- "Read the text symbols of report `Z_MY_REPORT`."
 
 ## Development
 
