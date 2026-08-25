@@ -1,0 +1,4 @@
+tests/
+.github/
+src/**/*.test.ts
+release.config.cjs
