@@ -70,6 +70,14 @@ pi -e ./index.ts
 | `abap_object_types` | List searchable object types |
 | `abap_node_contents` | Browse a package's object tree |
 | `abap_transports` | List transport requests |
+| `abap_atc` | Run ATC analysis on an object |
+| `abap_dumps` | List runtime dumps |
+| `abap_traces` | List performance traces |
+| `abap_trace_hitlist` | Analyze a performance trace |
+| `abap_transport_details` | Details of one transport request |
+| `abap_text_elements` | Read text elements (symbols/selections/headings) |
+| `abap_set_text_elements` | Write text elements |
+| `abap_create_object` | Create a new ABAP object |
 
 ## Example prompts
 

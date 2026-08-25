@@ -16,6 +16,13 @@ import type {
   UsageReference,
   AdtLock,
   SyntaxCheckResult,
+  AtcWorkList,
+  DumpsFeed,
+  TraceResults,
+  TraceHitList,
+  TraceStatementResponse,
+  TransportRequest,
+  TextElementsResult,
 } from "abap-adt-api";
 
 function isClassStructure(
@@ -251,4 +258,125 @@ export function formatSyntaxCheck(results: ReadonlyArray<SyntaxCheckResult>): st
     (r) => `- [${r.severity}] line ${r.line}: ${r.text}`,
   );
   return `${results.length} message(s):\n${lines.join("\n")}`;
+}
+
+// ATC
+
+export function formatAtcResult(result: AtcWorkList): string {
+  const findings = result.objects.flatMap((o) =>
+    o.findings.map((f) => ({ object: o.name, objectType: o.type, ...f })),
+  );
+  if (findings.length === 0) {
+    return "ATC analysis completed with no findings.";
+  }
+  const lines: string[] = [];
+  for (const { object, objectType, checkTitle, messageTitle, priority, location } of findings) {
+    const pos = location ? `line ${location.range?.start?.line ?? "?"}` : "";
+    lines.push(
+      `- [P${priority}] ${object} (${objectType}): ${checkTitle} — ${messageTitle} ${pos}`,
+    );
+  }
+  lines.unshift(`${findings.length} ATC finding(s):`);
+  return lines.join("\n");
+}
+
+// Dumps
+
+export function formatDumps(feed: DumpsFeed): string {
+  if (feed.dumps.length === 0) return "No runtime dumps found.";
+  const lines = feed.dumps.map((d) => {
+    const when = d.id ? ` [${d.id}]` : "";
+    return `- ${d.type}${when}: ${d.text}`;
+  });
+  return `${feed.dumps.length} runtime dump(s):\n${lines.join("\n")}`;
+}
+
+// Traces
+
+export function formatTraces(result: TraceResults): string {
+  if (result.runs.length === 0) return "No traces found for this user.";
+  const lines = result.runs.map((r) => {
+    const obj = r.extendedData?.objectName
+      ? ` (${r.extendedData.objectName})`
+      : "";
+    const state = r.extendedData?.state?.text ?? "";
+    const runtime = r.extendedData?.runtime
+      ? `${Math.round(r.extendedData.runtime)}s`
+      : "";
+    return `- ${r.title}${obj} [${state}] ${runtime} — id=${r.id}`;
+  });
+  return `${result.runs.length} trace(s):\n${lines.join("\n")}`;
+}
+
+export function formatTraceHitList(
+  hitList: TraceHitList,
+  statements: TraceStatementResponse,
+): string {
+  const lines: string[] = [];
+  if (statements.statements.length > 0) {
+    lines.push("Statements (aggregated call tree):");
+    for (const s of statements.statements.slice(0, 50)) {
+      lines.push(
+        `  - ${s.description} — hits=${s.hitCount}, gross=${s.grossTime.time}ms`,
+      );
+    }
+  }
+  if (hitList.entries.length > 0) {
+    if (lines.length > 0) lines.push("");
+    lines.push("Hit list (hot spots):");
+    const sorted = [...hitList.entries].sort(
+      (a, b) => b.grossTime.time - a.grossTime.time,
+    );
+    for (const e of sorted.slice(0, 25)) {
+      lines.push(
+        `  - ${e.description} — hits=${e.hitCount}, gross=${e.grossTime.time}ms (${e.grossTime.percentage}%)`,
+      );
+    }
+  }
+  if (lines.length === 0) return "Trace has no statements or hit list entries.";
+  return lines.join("\n");
+}
+
+// Transport details
+
+export function formatTransportDetails(request: TransportRequest): string {
+  const lines: string[] = [
+    `Transport: ${request["tm:number"]}`,
+    `Description: ${request["tm:desc"]}`,
+    `Status: ${request["tm:status"]}`,
+    `Owner: ${request["tm:owner"]}`,
+  ];
+  const ownObjects = (request.objects ?? []).map((o) =>
+    `  - ${o["tm:name"]} (${o["tm:type"]})`,
+  );
+  if (ownObjects.length > 0) {
+    lines.push("Objects:");
+    lines.push(...ownObjects);
+  }
+  if (request.tasks.length > 0) {
+    lines.push("Tasks:");
+    for (const t of request.tasks) {
+      lines.push(`  ${t["tm:number"]}: ${t["tm:desc"]}`);
+      for (const o of t.objects ?? []) {
+        lines.push(`    - ${o["tm:name"]} (${o["tm:type"]})`);
+      }
+    }
+  }
+  return lines.join("\n");
+}
+
+// Text elements
+
+export function formatTextElements(
+  result: TextElementsResult,
+  category: string,
+): string {
+  if (result.textElements.length === 0) {
+    return `No ${category} text elements found for ${result.programName}.`;
+  }
+  const lines = result.textElements.map((e) => {
+    const extra = e.maxLength ? ` (max ${e.maxLength})` : "";
+    return `- ${e.id} = ${e.text}${extra}`;
+  });
+  return `${result.textElements.length} ${category} text element(s) for ${result.programName}:\n${lines.join("\n")}`;
 }

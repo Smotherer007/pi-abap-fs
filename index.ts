@@ -23,6 +23,14 @@
  *   - abap_object_types: List searchable object types
  *   - abap_node_contents: Browse package object tree
  *   - abap_transports: List user transports
+ *   - abap_atc: Run ATC analysis
+ *   - abap_dumps: List runtime dumps
+ *   - abap_traces: List performance traces
+ *   - abap_trace_hitlist: Analyze a performance trace
+ *   - abap_transport_details: Details of one transport request
+ *   - abap_text_elements: Read text elements (symbols/selections/headings)
+ *   - abap_set_text_elements: Write text elements
+ *   - abap_create_object: Create a new ABAP object
  *
  * Data-oriented design:
  *   - All domain data is represented as plain immutable interfaces (types.ts)
@@ -54,6 +62,14 @@ import { AbapWhereUsedTool } from "./src/tools/abap-where-used.ts";
 import { AbapObjectTypesTool } from "./src/tools/abap-object-types.ts";
 import { AbapNodeContentsTool } from "./src/tools/abap-node-contents.ts";
 import { AbapTransportsTool } from "./src/tools/abap-transports.ts";
+import { AbapAtcTool } from "./src/tools/abap-atc.ts";
+import { AbapDumpsTool } from "./src/tools/abap-dumps.ts";
+import { AbapTracesTool } from "./src/tools/abap-traces.ts";
+import { AbapTraceHitListTool } from "./src/tools/abap-trace-hitlist.ts";
+import { AbapTransportDetailsTool } from "./src/tools/abap-transport-details.ts";
+import { AbapTextElementsTool } from "./src/tools/abap-text-elements.ts";
+import { AbapSetTextElementsTool } from "./src/tools/abap-set-text-elements.ts";
+import { AbapCreateObjectTool } from "./src/tools/abap-create-object.ts";
 
 export default function (pi: ExtensionAPI) {
   // Load saved config on startup.
@@ -79,4 +95,12 @@ export default function (pi: ExtensionAPI) {
   pi.registerTool(AbapObjectTypesTool);
   pi.registerTool(AbapNodeContentsTool);
   pi.registerTool(AbapTransportsTool);
+  pi.registerTool(AbapAtcTool);
+  pi.registerTool(AbapDumpsTool);
+  pi.registerTool(AbapTracesTool);
+  pi.registerTool(AbapTraceHitListTool);
+  pi.registerTool(AbapTransportDetailsTool);
+  pi.registerTool(AbapTextElementsTool);
+  pi.registerTool(AbapSetTextElementsTool);
+  pi.registerTool(AbapCreateObjectTool);
 }

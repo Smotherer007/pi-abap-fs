@@ -23,6 +23,14 @@ import { AbapWhereUsedTool } from "../src/tools/abap-where-used.ts";
 import { AbapObjectTypesTool } from "../src/tools/abap-object-types.ts";
 import { AbapNodeContentsTool } from "../src/tools/abap-node-contents.ts";
 import { AbapTransportsTool } from "../src/tools/abap-transports.ts";
+import { AbapAtcTool } from "../src/tools/abap-atc.ts";
+import { AbapDumpsTool } from "../src/tools/abap-dumps.ts";
+import { AbapTracesTool } from "../src/tools/abap-traces.ts";
+import { AbapTraceHitListTool } from "../src/tools/abap-trace-hitlist.ts";
+import { AbapTransportDetailsTool } from "../src/tools/abap-transport-details.ts";
+import { AbapTextElementsTool } from "../src/tools/abap-text-elements.ts";
+import { AbapSetTextElementsTool } from "../src/tools/abap-set-text-elements.ts";
+import { AbapCreateObjectTool } from "../src/tools/abap-create-object.ts";
 
 const allTools = [
   AbapSetupTool,
@@ -44,11 +52,19 @@ const allTools = [
   AbapObjectTypesTool,
   AbapNodeContentsTool,
   AbapTransportsTool,
+  AbapAtcTool,
+  AbapDumpsTool,
+  AbapTracesTool,
+  AbapTraceHitListTool,
+  AbapTransportDetailsTool,
+  AbapTextElementsTool,
+  AbapSetTextElementsTool,
+  AbapCreateObjectTool,
 ];
 
 describe("Tool structure smoke test", () => {
-  it("has exactly 19 tools", () => {
-    assert.strictEqual(allTools.length, 19);
+  it("has exactly 27 tools", () => {
+    assert.strictEqual(allTools.length, 27);
   });
 
   for (const tool of allTools) {
